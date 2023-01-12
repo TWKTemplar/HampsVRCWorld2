@@ -4,7 +4,7 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
 
-public class MirrorToggle : UdonSharpBehaviour
+public class MikeMirrorToggle : UdonSharpBehaviour
 {
     public GameObject bestMirror;
     public GameObject hqMirror;
