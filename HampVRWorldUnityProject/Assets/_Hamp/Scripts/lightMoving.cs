@@ -22,6 +22,7 @@ public class lightMoving : UdonSharpBehaviour
         v.y += distanceToCover * Mathf.Cos(Time.time * speed);
         v.z += distanceToCover * Mathf.Sin(Time.time * speed);
         transform.position = v;
+        
     }
 
     
